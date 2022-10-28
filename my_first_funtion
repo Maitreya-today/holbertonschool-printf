@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <stdlib.h>
+// Ejemplo aprenderaprogramar.com
+int main() {
+    double numDecimal;
+    printf ("Introduce un numero decimal: ");
+    scanf ("%lf", &numDecimal);
+    printf ("Has introducido %lf", numDecimal);
+    return 0;
+}
