@@ -13,7 +13,7 @@ If successfully compiled and executed, the function should return the number of 
 - Returns: the number of characters printed (excluding the null byte used to end output to strings).
 - Write output to stdout, the standard output stream.
 - `format` is a character string. The format string is composed of zero or more directives. See `man 3 printf` for more detail.
-### File Usage
+### File Usage :camping: 
 File Name | Description
 --- | ---
 [_printf.c](https://github.com/tassavarat/printf/blob/master/_printf.c) | The main _prinf.c file is used to handle the array containing all the format specifiers used. As well as where the function starts to execute.
@@ -23,5 +23,20 @@ File Name | Description
 [man_3_printf](https://github.com/tassavarat/printf/blob/master/man_3_printf) | The man page we created for our _printf function.
 [helper_functions2.c](https://github.com/tassavarat/printf/blob/master/helper_functions2.c) | Another file containing more helper functions. Specifically, the functions for our converter, reverse, and Rot13.
 [helper_functions3.c](https://github.com/tassavarat/printf/blob/master/helper_functions3.c) | Another file contain more helper functions. The file contains the functions t handle the hexidecimals and binary specifiers.
-### Format Specifiers
+
+### Format Specifiers :pushpin:
 The _printf program will replicate the effects of the listed % format specifiers as when used with printf.
+
+Function name | Description | Format Specifier
+--- | --- | ---
+`_print_char` | Prints a single character | `%c`
+`_print_string` | Prints a string of characters | `%s`
+`_print_percent` | Prints a % | `%%`
+`_print_int` | Prints an integer in base 10| `%d` & `%i`
+`_print_reverse` | Prints the string in reverse | `r`
+`_print_rot13` | Converts the string into Rot13 | `R`
+`_print_binary` | Prints the binary form of the integer | `b`
+`_print_unsigned` | Prints an unsigned integer | `u`
+`_print_octal` | Prints and octal number | `o`
+`_print_hex_l` | Prints the lower case hexidecimal number | `x`
+`_print_hex_u` | Prints the upper case hexidecimal number | `X`
