@@ -45,7 +45,7 @@ Function name | Description | Format Specifier
 
 Our code can be compiled in either example
 ```
-$ gcc -Wall -Werror -Wextra -pedantic *.c
+$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
 ```
 or (if you want to test for unknown format specifiers)
 
