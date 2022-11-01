@@ -105,7 +105,6 @@ int main(void)
     return (0);
 }
 ```
-## Authors :people
+## Authors 
 
-Clint Hendrickson
-Manuel Zambrano
+Clint Hendrickson / Manuel Zambrano
