@@ -105,3 +105,7 @@ int main(void)
     return (0);
 }
 ```
+## Authors :people
+
+Clint Hendrickson
+Manuel Zambrano
