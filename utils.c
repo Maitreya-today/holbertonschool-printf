@@ -1,10 +1,10 @@
 #include "main.h"
+
 /**
  * print - print a string
- * _strlen - Calculate the length of a string
+ * strlen - Calculate the length of a string
  * @str: String
- *
- * Return: Length
+ * Return: lala 
  **/
 int _strlen(const char *str)
 {
@@ -14,11 +14,9 @@ int _strlen(const char *str)
 
 	return (i);
 }
-
 /**
  * print - print char.
  * @str: string.
- *
  * Return: string length.
  */
 
