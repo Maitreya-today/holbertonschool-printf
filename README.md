@@ -1,5 +1,4 @@
 
-=======
 # C - printf :page_facing_up:
 
 ## Description :memo:
