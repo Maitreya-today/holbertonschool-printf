@@ -60,10 +60,10 @@ $ gcc -Wall -Werror -Wextra -pedantic -Wno-format *.c
 You'll make a main.c file to test the program, in order to see if the custom _printf function works exactly like how regular printf manages to display the number of characters printed.
 The main.c file should contain the code displayed below. (Feel free to change the code inside main.c to test for any other test cases not currently displayed.)
 ```
-Timmy@ubuntu:~/c/printf$ cat main.c
+$:~/c/printf$ cat main.c
 #include <limits.h>
 #include <stdio.h>
-#include "holberton.h"
+#include "main.h"
 
 /**
  * main - Entry point
