@@ -63,7 +63,7 @@ The main.c file should contain the code displayed below. (Feel free to change th
 Timmy@ubuntu:~/c/printf$ cat main.c
 #include <limits.h>
 #include <stdio.h>
-#include "holberton.h"
+#include "main.h"
 
 /**
  * main - Entry point
