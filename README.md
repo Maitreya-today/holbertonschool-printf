@@ -2,11 +2,14 @@
 # C - printf :page_facing_up:
 
 ## Description :memo:
-The printf() function sends a formatted string to the standard output (the display). This string can display formatted variables and special control characters, such as new lines (‘\n’), backspaces (‘\b’) and tabspaces (‘\t’); these are listed in Table 2.1.
+The printf() function sends a formatted string to the standard output.
 
 If successfully compiled and executed, the function should return the number of characters printed (excluding the null byte used to end output to strings). And if it fails, then the function should return a (-1) upon error and "(null)" if the string argument takes in NULL. If the format specifier is unkown, then the output would print out the format specifier as a string.
 
 [![image1.png](https://i.postimg.cc/J7FVgvrR/image1.png)](https://postimg.cc/7bSWJBJR)
+
+## Flowchart
+![68747470733a2f2f692e696d6775722e636f6d2f536a71495573372e706e67](https://user-images.githubusercontent.com/105505927/178279750-67811154-48ec-4467-9dc4-e89813768989.png)
 
 ## Prototype :wrench:
 `int _printf(const char *format, ...)`
