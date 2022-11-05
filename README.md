@@ -32,17 +32,17 @@ The _printf program will replicate the effects of the listed % format specifiers
 
 Function name | Description | Format Specifier
 --- | --- | ---
-`_print_char` | Prints a single character | `%c`
-`_print_string` | Prints a string of characters | `%s`
-`_print_percent` | Prints a % | `%%`
-`_print_int` | Prints an integer in base 10| `%d` & `%i`
-`_print_rev_string` | Prints the string in reverse | `r`
-`_print_rot13` | Converts the string into Rot13 | `R`
-`_print_binary` | Prints the binary form of the integer | `b`
-`_print_unsigned` | Prints an unsigned integer | `u`
-`_print_octal` | Prints and octal number | `o`
-`_print_hex_l` | Prints the lower case hexidecimal number | `x`
-`_print_hex_u` | Prints the upper case hexidecimal number | `X`
+`print_char` | Prints a single character | `%c`
+`print_string` | Prints a string of characters | `%s`
+`print_percent` | Prints a % | `%%`
+`print_int` | Prints an integer in base 10| `%d` & `%i`
+`print_rev_string` | Prints the string in reverse | `r`
+`print_rot13` | Converts the string into Rot13 | `R`
+`print_binary` | Prints the binary form of the integer | `b`
+`print_unsigned` | Prints an unsigned integer | `u`
+`print_octal` | Prints and octal number | `o`
+`print_hex_l` | Prints the lower case hexidecimal number | `x`
+`print_hex_u` | Prints the upper case hexidecimal number | `X`
 
 ## Compilation :thought_balloon:
 
