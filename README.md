@@ -34,7 +34,6 @@ Function name | Description | Format Specifier
 --- | --- | ---
 `print_char` | Prints a single character | `%c`
 `print_string` | Prints a string of characters | `%s`
-`print_percent` | Prints a % | `%%`
 `print_int` | Prints an integer in base 10| `%d` & `%i`
 `print_rev_string` | Prints the string in reverse | `r`
 `print_rot13` | Converts the string into Rot13 | `R`
