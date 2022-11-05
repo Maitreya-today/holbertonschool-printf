@@ -36,7 +36,7 @@ Function name | Description | Format Specifier
 `_print_string` | Prints a string of characters | `%s`
 `_print_percent` | Prints a % | `%%`
 `_print_int` | Prints an integer in base 10| `%d` & `%i`
-`_print_reverse` | Prints the string in reverse | `r`
+`_print_rev_string` | Prints the string in reverse | `r`
 `_print_rot13` | Converts the string into Rot13 | `R`
 `_print_binary` | Prints the binary form of the integer | `b`
 `_print_unsigned` | Prints an unsigned integer | `u`
@@ -48,7 +48,7 @@ Function name | Description | Format Specifier
 
 Our code can be compiled in either example
 ```
-$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
+$ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 *.c
 ```
 or (if you want to test for unknown format specifiers)
 
