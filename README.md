@@ -34,14 +34,15 @@ Function name | Description | Format Specifier
 --- | --- | ---
 `print_char` | Prints a single character | `%c`
 `print_string` | Prints a string of characters | `%s`
-`print_int` | Prints an integer in base 10| `%d` & `%i`
+`print_integer` | Prints an integer in base 10| `%d` & `%i`
 `print_rev_string` | Prints the string in reverse | `r`
-`print_rot13` | Converts the string into Rot13 | `R`
+`print_rot` | Converts the string into Rot13 | `R`
 `print_binary` | Prints the binary form of the integer | `b`
+`print_pointer` | Prints a number in hexadecimal format | `p`
 `print_unsigned` | Prints an unsigned integer | `u`
 `print_octal` | Prints and octal number | `o`
-`print_hex_l` | Prints the lower case hexidecimal number | `x`
-`print_hex_u` | Prints the upper case hexidecimal number | `X`
+`print_hexadecimal_low` | Prints the lower case hexidecimal number | `x`
+`print_hexadecimal_upp` | Prints the upper case hexidecimal number | `X`
 
 ## Compilation :thought_balloon:
 
